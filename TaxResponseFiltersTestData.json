@@ -1,0 +1,91 @@
+{
+  "addFilters":{
+    "info": {
+      "CompanyName": "Test_Aut_Filter1",
+      "GroupName": "NewTaxFiltersGroup56",
+      "EditGroupName" :"EditedFiltersgroup55",
+      "StartDate"     : "01/03/2021",
+      "EndDate"       : "09/23/2022",
+      "FilterName": "TestFilter",
+      "Priority"  : "1",
+      "Description"   : "Adding a filter",
+      "SelectParent"  : "No Parent",
+      "Element"  : "LINE.TAX.AUTHORITY_TYPE(O)",
+      "Operator" : "EQUAL TO (=)",
+      "Constant" : "County Sales/Use"
+
+    },
+    "addAndCondition":{
+      "CompanyName": "Test_Aut_Filter1",
+      "GroupName": "AndTaxFiltersGroup28",
+      "StartDate"     : "01/01/2020",
+      "EndDate"       : "09/23/2022",
+      "FilterName": "TestFilter",
+      "Priority"  : "1",
+      "Description"   : "Adding a filter",
+      "SelectParent"  : "No Parent",
+      "Element"  : "LINE.TAX.AUTHORITY_TYPE(O)",
+      "Operator" : "EQUAL TO (=)",
+      "Constant" : "County Sales/Use",
+      "SelectParent1"  : "Condition 1",
+      "Element1"  : "LINE.TAX.EU_TRANSACTION(O)",
+      "Operator1" : "IS NOT EU",
+      "Constant1" : "NL"
+      
+    },
+    "addORCondition":{
+      "CompanyName": "Test_Aut_Filter1",
+      "GroupName": "ORTaxFiltersGroup9",
+      "StartDate"     : "01/01/2020",
+      "EndDate"       : "09/23/2022",
+      "FilterName": "TestFilter",
+      "Priority"  : "1",
+      "Description"   : "Adding a filter",
+      "SelectParent"  : "No Parent",
+      "Element"  : "LINE.TAX.AUTHORITY_TYPE(O)",
+      "Operator" : "EQUAL TO (=)",
+      "Constant" : "County Sales/Use",
+      "SelectParent1"  : "No Parent",
+      "Element1"  : "LINE.TAX.TAX_RATE_CODE(O)",
+      "Operator1" : "EQUAL TO (=)",
+      "Constant1" : "NL"
+      
+    }
+
+  } ,
+ "editFilters":{
+   "info" :{
+    "CompanyName": "Test_Aut_Filter1",
+    
+    "FilterName": "EditedFilter",
+    "Priority"  : "3"
+    
+   }
+  },
+  "addSpecialFilters":{
+    "info": {
+      "CompanyName": "Test_Aut_Filter1",
+      "SpecialGroup" : "Specialgroup",
+      "SpecialFilterName": "---------@@@@@@@@@@####234343fdjlakdsjflkkkdckldjfkldjslkdjflkdjslkjgkldjkljdflkdjslkjfkljlsdjfdlk",
+      "StartDate"     : "01/03/2021",
+      "EndDate"       : "09/23/2022",
+      "FilterName": "SpecialFilter",
+      "Priority"  : "1",
+      "Description"   : "Adding a special filter",
+      "SelectParent"  : "No Parent",
+      "Element"  : "LINE.TAX.AUTHORITY_TYPE(O)",
+      "Operator" : "EQUAL TO (=)",
+      "Constant" : "County Sales/Use"
+
+    }
+  } ,
+  
+   "deleteFilters":{
+    "info" :{
+     "CompanyName": "Test_Aut_Filter1"
+     
+     
+     }
+
+ }
+}  
